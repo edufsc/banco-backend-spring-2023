@@ -8,6 +8,7 @@ Se han incluído las operaciones básicas para tener una API CRUD (create read u
 ```git clone https://github.com/edufsc/banco-backend-spring-2023.git```
 ### Configurar la conexión con la base de datos
 Es necesario que la base de datos esté creada y funcionando y disponer de un usuario con todos los privilegios. Editar el archivo src/main/resources/application.properties con las credenciales de tu BDD.
+#### NOTA: en una aplicación real nunca dejaremos las credenciales de nuestra base de datos (u otra información sensible) en un repositorio público
 ### Añadir a Eclipse
 File > Import > Existing Maven project > Seleccionar la carpeta del proyecto y si ha detectado el pom.xml hacer click en "Finish". Recomendable instalar el complemento Spring Tools 4 desde el marketplace de Eclipse.
 ## Ejecutar
